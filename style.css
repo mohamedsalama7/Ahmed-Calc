@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  /* اسم الخط الذي ستستخدمه */
+  src: url('/font/digital-7.ttf') format('truetype');
+  /* مسار الخط */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #0d1117;
+  background: url(./background.jpg) center no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.poss {
+  text-align: center;
+  padding-bottom: 14px;
+
+  h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 82px #0fa
+  }
+}
+
+
+input {
+  outline: none;
+  border: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 50px;
+  min-width: 100px;
+  max-width: 400px;
+  padding: 20px;
+  /* background: rgb(5, 5, 5); */
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 2px solid rgb(145, 150, 150);
+  background-position: center;
+  background-size: cover;
+  margin-inline: 30px;
+
+}
+
+.output {
+  margin-bottom: 14px;
+}
+
+.screen {
+  width: 100%;
+  height: 70px;
+  background: #aaba9f;
+  color: black;
+  font-size: 45px;
+  font-family: 'MyCustomFont';
+  padding-left: 14px;
+  border-radius: 10px;
+}
+
+.input {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.input button {
+  height: 60px;
+  font-size: 30px;
+  background: black;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: .2s;
+  border-radius: 10px;
+  border: 1px solid #222;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.input button:hover {
+  background: #026876;
+}
+
+
+
+.button-33 {
+  background-color: #c2fbd7 !important;
+  color: black !important;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px 14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.05);
+}
+
+#back {
+  background: #FF4136;
+}
+
+.orange {
+  background: #FF851B !important;
+}
+
+.blue {
+  background: #39CCCC !important;
+}
+
+.green {
+  background: #2ECC40 !important;
+}
